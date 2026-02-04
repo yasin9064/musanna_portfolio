@@ -46,8 +46,8 @@ export const About = () => {
           </div>
 
           <div className="flex gap-8 border-t pt-8">
-            <StatCounter end={4} label="Years in Business" suffix="+" />
-            <StatCounter end={2000} label="Docs Processed" suffix="+" />
+            <StatCounter end={7} label="Years in Business" suffix="+" />
+            <StatCounter end={4000} label="Docs Processed" suffix="+" />
           </div>
         </div>
 
@@ -55,7 +55,7 @@ export const About = () => {
         <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl group">
           <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-110">
             <Image
-              src="https://placehold.co/800x1200/333333/ffbe40?text=Our+Team"
+              src="/images/About.jpeg"
               alt="Our Professional Team"
               fill
               className="object-cover"
@@ -67,17 +67,6 @@ export const About = () => {
           {/* Overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent pointer-events-none"></div>
           
-          {/* Testimonial Preview */}
-          <div className="absolute bottom-8 left-8 right-8 p-6 bg-white/95 backdrop-blur rounded-xl shadow-lg animate-fade-in">
-            <div className="flex items-center gap-4 mb-3">
-              <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center text-xs font-bold">JD</div>
-              <div>
-                <h4 className="font-bold">John Doe</h4>
-                <div className="text-primary text-sm">★★★★★</div>
-              </div>
-            </div>
-            <p className="text-gray-700 italic">"The most professional service I've ever used. My passport was renewed in just 3 days!"</p>
-          </div>
         </div>
       </div>
     </Section>

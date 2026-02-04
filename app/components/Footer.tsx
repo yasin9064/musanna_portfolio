@@ -15,7 +15,7 @@ export const Footer = () => {
               Musanna Doc <span className="text-primary">Services</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Your trusted partner for all government and travel documentation needs. Fast, secure, and reliable services since 2022.
+              Your trusted partner for all government and travel documentation needs. Fast, secure, and reliable services since 2019.
             </p>
             <div className="flex gap-4">
               {/* Social placeholders */}

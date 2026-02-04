@@ -47,12 +47,12 @@ const ServiceIcon = ({ type }: { type: string }) => {
 };
 
 const services = [
-  { id: 1, title: 'Passport Services', type: 'passport', desc: 'New applications, renewals, and expedited services handled with precision.', price: 'Starts ₹1500', popular: true },
-  { id: 2, title: 'PAN Card', type: 'pan', desc: 'New PAN card application, corrections, and duplicate card processing.', price: 'Starts ₹250', popular: false },
+  { id: 1, title: 'Passport Services', type: 'passport', desc: 'New applications, renewals, and expedited services handled with precision.', price: 'Consult for Quote', popular: true },
+  { id: 2, title: 'PAN Card', type: 'pan', desc: 'New PAN card application, corrections, and duplicate card processing.', price: 'Consult for Quote', popular: false },
   { id: 3, title: 'Birth Certificate', type: 'birth', desc: 'Hassle-free procurement of birth certificates from municipal corporations.', price: 'Consult for Quote', popular: false },
   { id: 4, title: 'Flight Booking', type: 'flight', desc: 'Domestic and international flight tickets at competitive rates.', price: 'Best Market Rates', popular: true },
-  { id: 5, title: 'ITR Filing', type: 'itr', desc: 'Expert assistance for Income Tax Returns filing and tax planning.', price: 'Starts ₹500', popular: false },
-  { id: 6, title: 'GST Registration', type: 'gst', desc: 'Complete GST registration and monthly return filing services.', price: 'Starts ₹1000', popular: false },
+  { id: 5, title: 'ITR Filing', type: 'itr', desc: 'Expert assistance for Income Tax Returns filing and tax planning.', price: 'Best Market Rates', popular: false },
+  { id: 6, title: 'GST Registration', type: 'gst', desc: 'Complete GST registration and monthly return filing services.', price: 'Best Market Rates', popular: false },
 ];
 
 export const Services = () => {

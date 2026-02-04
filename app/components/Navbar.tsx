@@ -48,7 +48,7 @@ export const Navbar = () => {
               {link.label}
             </button>
           ))}
-          <Button size="sm" onClick={() => scrollTo('contact')}>Get Quote</Button>
+          <Button size="sm" onClick={() => scrollTo('contact')}>Contact Me</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -71,7 +71,7 @@ export const Navbar = () => {
                 {link.label}
               </button>
             ))}
-            <Button className="w-full mt-2" onClick={() => scrollTo('contact')}>Get Quote</Button>
+            <Button className="w-full mt-2" onClick={() => scrollTo('contact')}>Contact Me</Button>
           </div>
         )}
       </div>

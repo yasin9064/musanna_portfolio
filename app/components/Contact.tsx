@@ -77,7 +77,7 @@ export const Contact = () => {
               <div className="text-2xl">📞</div>
               <div>
                 <h4 className="font-bold">Phone</h4>
-                <a href="tel:+919851086137" className="text-gray-600 hover:text-primary transition-colors">+91 9851086137</a>
+                <a href="tel:+918637889243" className="text-gray-600 hover:text-primary transition-colors">+91 8637889243</a>
               </div>
             </div>
 
@@ -85,7 +85,7 @@ export const Contact = () => {
               <div className="text-2xl">✉️</div>
               <div>
                 <h4 className="font-bold">Email</h4>
-                <a href="mailto:info@docservices.com" className="text-gray-600 hover:text-primary transition-colors">info@docservices.com</a>
+                <a href="mailto:mdmusanna7@gmail.com" className="text-gray-600 hover:text-primary transition-colors">mdmusanna7@gmail.com</a>
               </div>
             </div>
 

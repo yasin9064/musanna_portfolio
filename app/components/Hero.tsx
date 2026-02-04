@@ -46,7 +46,7 @@ export const Hero = () => {
 
           <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-700 mt-8">
             <StatCounter end={4} label="Years Experience" suffix="+" />
-            <StatCounter end={1000} label="Satisfied Clients" suffix="+" />
+            <StatCounter end={10000} label="Satisfied Clients" suffix="+" />
             <StatCounter end={99} label="Success Rate" suffix="%" />
           </div>
         </div>
@@ -56,7 +56,9 @@ export const Hero = () => {
           <div className="relative w-[350px] md:w-[450px] h-[450px] md:h-[600px] bg-gray-800 rounded-2xl overflow-hidden shadow-2xl border-4 border-primary/20 group">
              {/* Placeholder for Professional Portrait */}
              <div className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center text-gray-500">
-                <span className="text-xl">Professional Portrait</span>
+                <span className="text-xl">
+                  <img src="/images/Musanna.jpeg" alt="Musanna" className="w-full h-full object-cover rounded-2xl" />
+                </span>
              </div>
              
              {/* Floating Badges */}
