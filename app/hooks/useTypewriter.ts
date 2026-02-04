@@ -1,0 +1,22 @@
+import { useState, useEffect } from 'react';
+
+export const useTypewriter = (text: string, speed: number = 50) => {
+  const [displayedText, setDisplayedText] = useState('');
+  
+  useEffect(() => {
+    let index = 0;
+    setDisplayedText(''); // Reset on text change
+    
+    const intervalId = setInterval(() => {
+      setDisplayedText((prev) => prev + text.charAt(index));
+      index++;
+      if (index === text.length) {
+        clearInterval(intervalId);
+      }
+    }, speed);
+
+    return () => clearInterval(intervalId);
+  }, [text, speed]);
+
+  return displayedText;
+};

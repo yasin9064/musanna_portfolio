@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Professional Document Services Portfolio
+
+This is a comprehensive portfolio website for a professional document services provider, built with Next.js 16, Tailwind CSS 4, and TypeScript.
+
+## Features
+
+- **Responsive Design**: Mobile-first approach ensuring great experience on all devices.
+- **Performance**: Optimized images, lazy loading, and efficient animations (60fps).
+- **Custom Design**: Golden Yellow (#ffbe40) and Dark Gray (#333333) color scheme with Playfair Display and Inter fonts.
+- **Interactive Elements**:
+  - Hero section with typewriter effect and stats counters.
+  - Services grid with hover effects.
+  - Parallax About section.
+  - 3D Testimonials carousel.
+  - Functional Contact form with validation.
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS 4
+- **Language**: TypeScript
+- **Icons**: Custom SVG components
 
 ## Getting Started
 
-First, run the development server:
+1.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2.  **Run Development Server**:
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3.  **Build for Production**:
+    ```bash
+    npm run build
+    npm start
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   **Colors**: Edit `app/globals.css` to change `--primary` and `--secondary` CSS variables.
+-   **Fonts**: Edit `app/layout.tsx` to change font imports.
+-   **Content**: Edit components in `app/components/` to update text and images.
+-   **Images**: Replace placeholder URLs with actual images in `public/` folder or update `src` paths.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+-   `app/`: Main application code.
+    -   `components/`: Reusable UI components and sections.
+    -   `hooks/`: Custom React hooks (useTypewriter, useCounter).
+    -   `layout.tsx`: Root layout and font configuration.
+    -   `page.tsx`: Main homepage composition.
+    -   `globals.css`: Global styles and Tailwind configuration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[MIT](LICENSE)
