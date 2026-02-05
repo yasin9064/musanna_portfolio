@@ -121,6 +121,7 @@ export const Testimonials = () => {
                   width={80}
                   height={80}
                   className="w-20 h-20 rounded-full border-4 border-primary mb-4 object-cover"
+                  unoptimized
                 />
                 <div className="flex gap-1 mb-2 text-primary">
                   {[...Array(testimonial.rating)].map((_, i) => <span key={i}>★</span>)}

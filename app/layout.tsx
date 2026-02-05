@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Musanna Doc Services",
+  title: "Musanna Document Services",
   description:
     "Passport applications, PAN card processing, birth certificate procurement, and more.",
 };

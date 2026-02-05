@@ -42,11 +42,11 @@ export const Process = () => {
           <div className="h-full bg-primary w-full origin-left animate-[grow_3s_ease-out_forwards]"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 relative z-10">
           {steps.map((step, index) => (
             <div key={step.id} className="group relative">
               {/* Step Circle */}
-              <div className="w-24 h-24 mx-auto bg-gray-800 rounded-full border-4 border-gray-700 group-hover:border-primary flex items-center justify-center text-3xl transition-all duration-300 group-hover:scale-110 shadow-xl mb-6 relative">
+              <div className="w-20 h-20 md:w-24 md:h-24 mx-auto bg-gray-800 rounded-full border-4 border-gray-700 group-hover:border-primary flex items-center justify-center text-2xl md:text-3xl transition-all duration-300 group-hover:scale-110 shadow-xl mb-6 relative">
                  <span className="relative z-10">{step.icon}</span>
                  {/* Pulse effect */}
                  <div className="absolute inset-0 rounded-full bg-primary/20 scale-0 group-hover:scale-150 transition-transform duration-500 opacity-0 group-hover:opacity-100"></div>

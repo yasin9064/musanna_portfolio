@@ -26,7 +26,7 @@ export const Hero = () => {
             Premium Document Solutions
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight min-h-[160px] md:min-h-[200px]">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight min-h-[160px] md:min-h-[200px]">
             {headline}
             <span className="animate-pulse text-primary">|</span>
           </h1>
@@ -44,7 +44,7 @@ export const Hero = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-700 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-gray-700 mt-8">
             <StatCounter end={4} label="Years Experience" suffix="+" />
             <StatCounter end={10000} label="Satisfied Clients" suffix="+" />
             <StatCounter end={99} label="Success Rate" suffix="%" />
@@ -52,8 +52,8 @@ export const Hero = () => {
         </div>
 
         {/* Image / Visual */}
-        <div className="relative h-[500px] md:h-[700px] w-full flex justify-center items-center">
-          <div className="relative w-[350px] md:w-[450px] h-[450px] md:h-[600px] bg-gray-800 rounded-2xl overflow-hidden shadow-2xl border-4 border-primary/20 group">
+        <div className="relative h-[400px] sm:h-[500px] md:h-[700px] w-full flex justify-center items-center">
+          <div className="relative w-[300px] sm:w-[350px] md:w-[450px] h-[400px] sm:h-[450px] md:h-[600px] bg-gray-800 rounded-2xl overflow-hidden shadow-2xl border-4 border-primary/20 group">
              {/* Placeholder for Professional Portrait */}
              <div className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center text-gray-500">
                 <span className="text-xl">

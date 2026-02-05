@@ -58,14 +58,14 @@ const services = [
 export const Services = () => {
   return (
     <Section id="services" className="bg-gray-50">
-      <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="text-4xl font-bold mb-4">Our Premium Services</h2>
+      <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Premium Services</h2>
         <p className="text-gray-600">Comprehensive document solutions tailored to your needs. Fast, reliable, and secure processing.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service) => (
-          <div key={service.id} className="group relative bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 overflow-hidden">
+          <div key={service.id} className="group relative bg-white rounded-xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 overflow-hidden">
             {service.popular && (
               <div className="absolute top-0 right-0 bg-primary text-secondary text-xs font-bold px-3 py-1 rounded-bl-lg z-10">
                 POPULAR

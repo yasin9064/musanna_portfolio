@@ -93,7 +93,7 @@ export const Contact = () => {
               <div className="text-2xl">📍</div>
               <div>
                 <h4 className="font-bold">Address</h4>
-                <p className="text-gray-600">Dhantola Bazar, Dhantola, Islampur, Uttar Dinajpur, West Bengal, 733202</p>
+                <p className="text-gray-600 break-words">Dhantola Bazar, Dhantola, Islampur, Uttar Dinajpur, West Bengal, 733202</p>
               </div>
             </div>
           </div>

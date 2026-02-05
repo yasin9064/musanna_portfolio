@@ -12,7 +12,7 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <div className="font-playfair text-2xl font-bold mb-6">
-              Musanna Doc <span className="text-primary">Services</span>
+              Musanna Document <span className="text-primary">Services</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Your trusted partner for all government and travel documentation needs. Fast, secure, and reliable services since 2019.
@@ -45,6 +45,7 @@ export const Footer = () => {
               <li><a href="#hero" className="hover:text-white hover:underline decoration-primary underline-offset-4 transition-all">Home</a></li>
               <li><a href="#about" className="hover:text-white hover:underline decoration-primary underline-offset-4 transition-all">About Us</a></li>
               <li><a href="#process" className="hover:text-white hover:underline decoration-primary underline-offset-4 transition-all">How It Works</a></li>
+              <li><a href="#gallery" className="hover:text-white hover:underline decoration-primary underline-offset-4 transition-all">Gallery</a></li>
               <li><a href="#testimonials" className="hover:text-white hover:underline decoration-primary underline-offset-4 transition-all">Testimonials</a></li>
               <li><a href="#contact" className="hover:text-white hover:underline decoration-primary underline-offset-4 transition-all">Contact Support</a></li>
             </ul>
@@ -69,7 +70,7 @@ export const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           <div>
-            &copy; {new Date().getFullYear()} Musanna Doc Services. All rights reserved.
+            &copy; {new Date().getFullYear()} Musanna Document Services. All rights reserved.
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white">Privacy Policy</a>
@@ -81,7 +82,7 @@ export const Footer = () => {
       {/* Back to Top */}
       <button 
         onClick={scrollToTop}
-        className="fixed bottom-8 right-8 w-12 h-12 bg-primary text-secondary rounded-full shadow-xl flex items-center justify-center font-bold text-xl hover:-translate-y-1 transition-transform z-40"
+        className="fixed bottom-4 right-4 md:bottom-8 md:right-8 w-12 h-12 bg-primary text-secondary rounded-full shadow-xl flex items-center justify-center font-bold text-xl hover:-translate-y-1 transition-transform z-40"
         aria-label="Back to top"
       >
         ↑
